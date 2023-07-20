@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid red;
+}
+nav{
+    height: 10%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #800080;
+}
+.heading h1{
+    color: white;
+    font-size: 2rem;
+}
+
+main{
+    height: 60%;
+    width: 100%;
+    border: 2px solid black;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstArtical{
+    background-color: cyan;
+}
+
+.secondArtical{
+    background-color: cyan;
+}
+
+.thirdArtical{
+    background-color: cyan;
+}
